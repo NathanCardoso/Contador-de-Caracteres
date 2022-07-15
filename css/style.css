@@ -1,0 +1,49 @@
+body {
+  font-family: monospace;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+form {
+  width: 800px;
+  flex-shrink: 0;
+}
+
+form textarea {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  max-width: 600px;
+  padding: 15px;
+  font-size: 1.2em;
+  font-family: monospace;
+  border: 2px solid #84e;
+  background: black;
+  color: white;
+}
+
+form textarea:focus {
+  outline: none;
+  border-color: #84e;
+}
+
+p {
+  margin: 10px auto;
+  max-width: 632px;
+  color: white;
+}
+
+p > span {
+  color: #84e;
+  font-weight: bold;
+}
