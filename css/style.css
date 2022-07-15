@@ -14,14 +14,13 @@ h1 {
 }
 
 form {
-  width: 800px;
   flex-shrink: 0;
 }
 
 form textarea {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  max-width: 100%;
   height: 300px;
   max-width: 600px;
   padding: 15px;
